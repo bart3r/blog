@@ -17,7 +17,6 @@
 <script>
   // Assuming you have a target container for comments with the ID 'comments'
 document.addEventListener("turbo:load", () => {
-  alert(3);
   const commentsChannel = consumer.subscriptions.create({ channel: "CommentsChannel" }, {
     received(data) {
       const commentsContainer = document.getElementById("comments");

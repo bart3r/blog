@@ -7,7 +7,7 @@ image: bart3r/myapp
 # Deploy to these servers.
 servers:
   web:
-    - 13.75.154.130
+    - 52.158.131.172
   # job:
   #   hosts:
   #     - 192.168.0.1
